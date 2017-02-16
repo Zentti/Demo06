@@ -8,6 +8,10 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="trucksButton" Content="Trucks" Width="124" Height="64" FontSize="25" HorizontalAlignment="Left" Margin="465,93,0,0" VerticalAlignment="Top" Click="trucksButton_Click"/>
+        <Button x:Name="carsButton" Content="Cars" Width="124" Height="64" FontSize="25" HorizontalAlignment="Right" Margin="0,93,465,0" VerticalAlignment="Top" Click="carsButton_Click"/>
+        <TextBlock x:Name="trucksTextBlock" HorizontalAlignment="Left" FontSize="35" Width="124" TextAlignment="Center" Margin="465,211,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="carsTextBlock" HorizontalAlignment="Left" FontSize="35" Width="124" TextAlignment="Center" Margin="691,211,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>
